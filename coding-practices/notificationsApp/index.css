@@ -1,0 +1,64 @@
+/* Write your code here. */
+
+.bg-container {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -200px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  height: 50px;
+}
+
+.bg-blue {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: blue;
+}
+.bg-green {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  align-items: center;
+
+  background-color: #2dca73;
+  margin-bottom: 20px;
+}
+.bg-yellow {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  align-items: center;
+  background-color: #ffb800;
+  margin-bottom: 20px;
+}
+.bg-red {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  align-items: center;
+  background-color: #ff0b37;
+}
+.notification-text {
+  color: white;
+  font-size: 20px;
+}
+.heading {
+  font-size: 60px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
