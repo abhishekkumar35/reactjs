@@ -1,4 +1,4 @@
-import Speedometer from './components/Speedometer'
+import Speedometer from './components/Speedometer/index1'
 
 import './App.css'
 
