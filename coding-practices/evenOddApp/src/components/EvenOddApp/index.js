@@ -7,10 +7,11 @@ class EvenOddApp extends Component {
   state = {count: 0, check: 'Even'}
 
   clicked = () => {
-    const randNumber = Math.floor(Math.random() * 100)
-    this.setState(prevState => ({count: prevState.count + randNumber}))
     const {count} = this.state
-    if (count % 2 === 0) {
+    const randNumber = Math.floor(Math.random() * 100)
+    const updatedValue = count + randNumber
+    this.setState(() => ({count: updatedValue}))
+    if (updatedValue % 2 === 0) {
       this.setState(() => ({check: 'Even'}))
     } else {
       this.setState(() => ({check: 'Odd'}))
