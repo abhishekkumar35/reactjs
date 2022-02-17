@@ -4,7 +4,7 @@ import {Component} from 'react'
 import './index.css'
 
 class ShowHide extends Component {
-  state = {firstName: true, lastName: true}
+  state = {firstName: false, lastName: false}
 
   clickedFirst = () => {
     const {firstName} = this.state
