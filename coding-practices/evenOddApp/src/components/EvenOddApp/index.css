@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.bg-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 50%;
+  height: 450px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #bfe9ff, #ff6e7f);
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+}
