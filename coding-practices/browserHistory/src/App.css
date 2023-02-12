@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app_card__title {
+  color: blue;
+}
+.app_card__searchbar {
+  background-color: blue;
+  display: flex;
+}
+.app_history_card {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.app_history_card__sub_flex_row {
+  display: flex;
+}
