@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bgLightBlue {
+  background-color: lightblue;
+  width: 500px;
+}
+
+.bgLightPurple {
+  background-color: lightseagreen;
+  width: 100%;
+}
+
+.bgLightSkyBlue {
+  background-color: lightskyblue;
+  width: 100%;
+}
+
+.bgLightGrey {
+  background-color: lightslategray;
+  width: 100%;
+}

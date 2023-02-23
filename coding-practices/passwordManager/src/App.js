@@ -2,7 +2,7 @@
 import Card from './components/Card'
 import AddPasswordForm from './components/AddPasswordForm'
 import ViewPassword from './components/ViewPassword'
-import style from './App.css'
+import style from './App.module.css'
 
 const App = () => (
   <div>
